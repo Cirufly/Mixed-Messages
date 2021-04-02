@@ -8,7 +8,7 @@ ________________
   
 ## How to run it:
 ##### Open the js file and use the command
-```console.log('Today is ' + day + '. Here is your daily joke: ' + joke + '. Hahahahaha am I not the funniest? BTW, ' + random);```
+```console.log(myJoke);```
 
 ## About the project.
 
