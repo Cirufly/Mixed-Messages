@@ -20,6 +20,7 @@ const jokes = {
 let day =jokes.day[Math.floor(Math.random() * jokes.day.length)];
 let joke = jokes.joke[Math.floor(Math.random() * jokes.joke.length)];
 let random = jokes.random[Math.floor(Math.random() * jokes.random.length)];
+let myJoke = 'Today is ' + day + '. Here is your daily joke: ' + joke + '. Hahahahaha am I not the funniest? BTW, ' + random 
 
-console.log('Today is ' + day + '. Here is your daily joke: ' + joke + '. Hahahahaha am I not the funniest? BTW, ' + random);
+console.log(myJoke);
 
